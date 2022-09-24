@@ -18,4 +18,7 @@ st.radio('Avaliar', ('Sim', 'Não'))
 
 #pergunta o nome do funcionário
 st.text_input('Nome do funcionário')
-#campo para digitar o nome do funcionário
+
+#pergunta a data
+st.date_input('Data')
+
