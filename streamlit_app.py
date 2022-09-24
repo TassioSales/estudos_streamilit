@@ -29,6 +29,14 @@ df = pd.DataFrame({'Nome': [''], 'Data': ['']})
 if st.button('Salvar'):
     df.to_csv('resultado.csv')
 
+#ler o arquivo csv
+df = pd.read_csv('resultado.csv')
+
+#mostrar o dataframe
+st.dataframe(df)
+
+#mostrar o dataframe como tabela
+st.table(df)
 
 
 
