@@ -22,3 +22,6 @@ st.text_input('Nome do funcionário')
 #pergunta a data
 st.date_input('Data')
 
+#salvar o resultado
+st.button('Salvar')
+
