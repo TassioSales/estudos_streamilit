@@ -28,7 +28,7 @@ df = pd.DataFrame({'Nome': [''], 'Data': ['']})
 #criar um botão
 if st.button('Salvar'):
     df.to_csv('resultado.csv')
-    
+
 
 
 
