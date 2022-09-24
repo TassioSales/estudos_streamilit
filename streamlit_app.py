@@ -13,8 +13,9 @@ st.subheader('Avalie o desempenho do funcionário')
 st.text('Avalie o desempenho do funcionário')
 
 
-#criar um checkbox
-st.checkbox('Avaliar')
-
 #criar um radio
 st.radio('Avaliar', ('Sim', 'Não'))
+
+#pergunta o nome do funcionário
+st.text_input('Nome do funcionário')
+#campo para digitar o nome do funcionário
